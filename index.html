@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eyuel | Portofolio</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body id="top">
+    <div class="cyber-bg">
+        <div class="cyber-gradient"></div>
+        <div class="matrix-rain" id="matrixRain"></div>
+    </div>
+
+    <div class="particles" id="particlesContainer"></div>
+
+    <div class="data-streams" id="dataStreams"></div>
+
+    <div class="orb orb1"></div>
+    <div class="orb orb2"></div>
+    <div class="orb orb3"></div>
+
+    <div class="grid-overlay">
+        <div class="grid-lines"></div>
+        <div class="grid-glow"></div>
+    </div>
+
+    <div class="scanlines"></div>
+    <div class="noise-overlay"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="#top" class="logo">Eyuel</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills & Tools</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!-- <div class="nav-bottom">
+                <a href="#" class="cyber-button">Access Terminal</a>
+            </div> -->
+            <button class="mobile-menu-button" id="mobileMenuBtn">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-header">
+            <a href="#top" class="mobile-menu-logo">Eyuel</a>
+            <button class="mobile-menu-close" id="mobileMenuClose">✕</button>
+        </div>
+        <!-- <div class="mobile-menu-cta">
+            <a href="#" class="cyber-button">Access Terminal</a>
+        </div> -->
+        <nav class="mobile-menu-nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills & Tools</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <h1 class="hero-title">
+                <span class="hero-nexus">Hey,</span>
+                <br>
+                <span class="hero-flow">I'm Eyuel</span>
+            </h1>
+            <h1>Python Automation & Data Enthusiast Expert</h1>
+            <br>
+            <p class="hero-subtitle">I build tools that save businesses time and automate repetitive tasks.
+            </p>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <!-- <section class="stats fade-up" id="stats">
+        <div class="stats-container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number">50K+</span>
+                    <span class="stat-label">Active Users</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">99.9%</span>
+                    <span class="stat-label">Uptime</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">500M+</span>
+                    <span class="stat-label">Tasks Processed</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">180+</span>
+                    <span class="stat-label">Countries</span>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Features Section -->
+    <section class="features fade-up" id="about">
+        <div class="features-container">
+            <div class="section-header">
+                <h2 class="section-title">Who I Am</h2>
+                <p class="section-subtitle">I’m Eyuel, a programmer passionate about solving real-world
+                    problems with code. My focus is on building automation tools and data-driven solutions that save
+                    time, reduce manual work, and make business processes more efficient.</p>
+            </div>
+            <div class="section-header">
+                <h2 class="section-title">What I Do</h2>
+                <p class="section-subtitle">My approach is simple: understand the problem, automate the boring parts,
+                    and deliver clean, functional solutions.</p>
+                <p class="section-subtitle">I specialize in creating Python-based solutions for:</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3>Business Automation</h3>
+                    <p>Excel\CSV reports, PDF processing, invoice generation, Automate Email</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Data Analysis & Visualization</h3>
+                    <p>Turning raw data into actionable insights using Pandas & Matplotlib</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🌐</div>
+                    <h3>Web Scraping</h3>
+                    <p>Extracting and collecting information from various websites for research and business use and
+                        delivared as structured Exce\CSV\JSON files.</p>
+                </div>
+            </div>
+            <div class="section-header">
+                <h2 class="section-title">My Goal</h2>
+                <p class="section-subtitle">
+                    I aim to help individuals and businesses unlock the power of automation and data. Long term, I am
+                    working on building scalable tools and SaaS products that solve everyday productivity challenges.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing fade-up" id="skills">
+        <div class="pricing-container">
+            <div class="section-header">
+                <h2 class="section-title">Tools & Skills</h2>
+                <p class="section-subtitle">Looks my skills to the future of collaboration</p>
+            </div>
+
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="plan-name">Programming & Scripting</div>
+                    <!-- <div class="plan-price">$49</div>
+                    <div class="plan-period">per neural link</div> -->
+                    <ul class="plan-features">
+                        <li>Python</li>
+                        <li>Pandas</li>
+                        <li>Matplotlib\Seabon</li>
+                        <li>Numpy</li>
+                        <li>BeautifulSoup</li>
+                        <li>Selenium</li>
+                        <li>Playwright</li>
+                    </ul>
+                    <!-- <a href="#" class="btn-secondary">Enter System</a> -->
+                </div>
+
+                <div class="pricing-card ">
+                    <div class="plan-name">Data Handling</div>
+                    <!-- <div class="plan-price">$149</div>
+                    <div class="plan-period">per neural link</div> -->
+                    <ul class="plan-features">
+                        <li>Excel\Google sheets\CSV</li>
+                        <li>openpyxl</li>
+                        <li>xlsxwriter</li>
+                        <li>PDF processing</li>
+                        <li>PyPDF2</li>
+                        <li>Camelot</li>
+                        <li>pdfplumber</li>
+                        <li>weasyprint</li>
+                    </ul>
+                    <!-- <a href="#" class="btn-primary">Jack In</a> -->
+                </div>
+
+                <div class="pricing-card">
+                    <div class="plan-name">Platforms</div>
+                    <!-- <div class="plan-price">$399</div>
+                    <div class="plan-period">per neural link</div> -->
+                    <ul class="plan-features">
+                        <li>Windows</li>
+                        <li>Linux</li>
+                        <li>Github pages</li>
+                        <li>Jupter Notebook</li>
+                    </ul>
+                    <!-- <a href="#" class="btn-secondary">Ascend</a> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        /* Project Grid */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        .project-card {
+            background: var(--card-bg, #1e1e1e);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+            transition: transform 0.2s ease;
+            cursor: pointer;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .project-card img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+        }
+
+        .project-card h3 {
+            margin: 0.5rem 1rem;
+            color: var(--text-color, #fff);
+        }
+
+        .project-card p {
+            margin: 0 1rem 1rem;
+            color: #aaa;
+            font-size: 0.9rem;
+        }
+
+        /* Modal Viewer */
+        #modal-viewer {
+            position: fixed;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.9);
+            z-index: 9999;
+            flex-direction: column;
+        }
+
+        #modal-viewer.hidden {
+            display: none;
+        }
+
+        #modal-viewer img {
+            max-width: 90%;
+            max-height: 80%;
+            border-radius: 10px;
+        }
+
+        #modal-viewer .close,
+        #modal-viewer .prev,
+        #modal-viewer .next {
+            position: absolute;
+            color: #fff;
+            font-size: 2rem;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        #modal-viewer .close {
+            top: 20px;
+            right: 30px;
+        }
+
+        #modal-viewer .prev {
+            left: 30px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        #modal-viewer .next {
+            right: 30px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.02); /* subtle card look */
+  backdrop-filter: blur(6px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+}
+
+.contact-links a {
+  display: block;
+  padding: 12px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #e0e0e0;
+  background: rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease;
+}
+
+.contact-links a:hover {
+  color: #fff;
+  background: linear-gradient(90deg, #6a5acd, #00bcd4);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.contact-links a:active {
+  transform: scale(0.98);
+}
+
+    </style>
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+            <!-- Project Card -->
+            <div class="project-card"
+                data-images="./images/invoice/1.png,./images/invoice/2.png,./images/invoice/3.png">
+                <img src="./images/invoice/1.png" alt="Invoice Generator">
+                <h3>Invoice Generator</h3>
+                <p>Automates invoices from Excel/PDF</p>
+                <div style="display:flex;justify-content: left;align-items: center;">
+                    <li style="padding: 0 5px;">Pandas</li>
+                    <li style="padding: 0 5px;">Weasyprint</li>
+                </div>
+            </div>
+            <div class="project-card"
+                data-images="./images/ebay/ebay1.png,./images/ebay/ebay2.png,./images/ebay/ebay3.png,./images/ebay/ebay4.png">
+                <img src="./images/ebay/ebay1.png" alt="Invoice Generator">
+                <h3>Automation Web Scraper</h3>
+                <p>Automates collect data from ebay.com and turn in to structured Excel\CSV format</p>
+                <div style="display:flex;justify-content: left;align-items: center;">
+                    <li style="padding: 0 5px;">Playwright</li>
+                    <li style="padding: 0 5px;">Pandas</li>
+                </div>
+            </div>
+            <div class="project-card"
+                data-images="./images/pdf2excel/1.png,./images/pdf2excel/2.png,./images/pdf2excel/3.png,./images/pdf2excel/4.png,./images/pdf2excel/5.png,./images/pdf2excel/6.png,./images/pdf2excel/7.png">
+                <img src="./images/pdf2excel/1.png" alt="Invoice Generator">
+                <h3>PDF table extractor to Excel</h3>
+                <p>This tool helps users to extract identify table from PDF file and turn into Excel file format. it is
+                    more efficient and time saver</p>
+                <div style="display:flex;justify-content: left;align-items: center;">
+                    <li style="padding: 0 5px;">Pandas</li>
+                    <li style="padding: 0 5px;">pdfplumber</li>
+                </div>
+            </div>
+            <div class="project-card"
+                data-images="./images/excel2pdf/1.png,./images/excel2pdf/2.png,./images/excel2pdf/3.png,./images/excel2pdf/4.png,./images/excel2pdf/5.png,./images/excel2pdf/6.png,./images/excel2pdf/7.png">
+                <img src="./images/excel2pdf/3.png" alt="Invoice Generator">
+                <h3>Automated PDF report & insights generater</h3>
+                <p>This tool helps users to make PDF report from raw Excel\CSV file format.</p>
+                <div style="display:flex;justify-content: left;align-items: center;">
+                    <li style="padding: 0 5px;">Matplotlib</li>
+                    <!-- <li style="padding: 0 5px;">Pandas</li> -->
+                    <li style="padding: 0 5px;">ReportLab</li>
+                </div>
+            </div>
+            <!-- Add more project-card here -->
+        </div>
+    </section>
+
+    <!-- Modal Image Viewer -->
+    <div id="modal-viewer" class="hidden">
+        <span class="prev" style="color: white;background: #333;border-radius: 50%;padding:7px 10px">&#10094;</span>
+        <img id="modal-image" src="">
+        <span class="next" style="color: white;background: #333;border-radius: 50%;padding:7px 10px">&#10095;</span>
+    </div>
+
+
+
+    <!-- Contact Section -->
+    <section class="contact fade-up" id="contact">
+        <div class="contact-container">
+            <div class="section-header">
+                <h2 class="section-title">Contact Me</h2>
+                <p class="section-subtitle">If you’d like to work together, have a project idea, or just want to say
+                    hello, feel free to reach out!</p>
+            </div>
+
+            <div class="contact-links contact-form-wrapper">
+                <a href="mailto:youremail@example.com">📩 Email: eyuelliyew03@gamil.com</a>
+                <a href="tel:djlkjf">📞 Phone: +251976159645</a>
+                <a href="https://t.me/eyucodex" target="_blank">📱 Telegram: @eyucodeX</a>
+                <!-- <a href="https://linkedin.com/in/" target="_blank">💼 LinkedIn</a> -->
+                <a href="https://github.com/eyuel-stack" target="_blank">🐙 GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <!-- <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <span class="footer-separator">•</span>
+                <a href="#">Terms of Service</a>
+                <span class="footer-separator">•</span>
+                <a href="#">Documentation</a>
+                <span class="footer-separator">•</span>
+                <a href="#">Contact Support</a>
+            </div> -->
+            <div class="footer-bottom">
+                <p>&copy; 2025 Eyuel Liyew. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+<script>
+    const modal = document.getElementById("modal-viewer");
+    const modalImg = document.getElementById("modal-image");
+    const closeBtn = modal.querySelector(".close");
+    const prevBtn = modal.querySelector(".prev");
+    const nextBtn = modal.querySelector(".next");
+
+    let images = [];
+    let currentIndex = 0;
+
+    // Open modal on card click
+    document.querySelectorAll(".project-card").forEach(card => {
+        card.addEventListener("click", () => {
+            images = card.dataset.images.split(",");
+            currentIndex = 0;
+            modalImg.src = images[currentIndex];
+            modal.classList.remove("hidden");
+        });
+    });
+
+    // Close modal
+    modal.addEventListener("click", (e) => {
+        if (e.target === modal) {
+            modal.classList.add("hidden");
+        }
+    });
+    // Navigation
+    nextBtn.addEventListener("click", () => {
+        currentIndex = (currentIndex + 1) % images.length;
+        modalImg.src = images[currentIndex];
+    });
+
+    prevBtn.addEventListener("click", () => {
+        currentIndex = (currentIndex - 1 + images.length) % images.length;
+        modalImg.src = images[currentIndex];
+    });
+
+</script>
+
+</html>
